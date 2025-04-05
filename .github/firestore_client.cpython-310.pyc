@@ -1,0 +1,16 @@
+o
+    rðg;  ã                   @   sb   d dl mZ d dlmZ ddddd dd	d
+d
+dd
+dœ
+Zej e¡Z eje ddZ	dd„ Z
+dd„ Z
+dS )é    )Ú	firestore)Úservice_accountr   ÚtalentanalysisÚ(18e96e993f36287b6a0814e8923ba63610db2615aÄ  -----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDbG1KCyK/WMr3l\nF2QaL7ivAjZfDN2pfD2HNNMXnFkCvn8m3AAL1EiAdMbwI9d84sienHvdfkk2XNXG\nWnaoDd1p867XPgm/8gtNg1BNqHXEEOOWrve83qiTm9FuZOMuwdZi6GPWGOl9XW6i\nfNyrufnRUNJ82rfbP9cfMFKtW3b5V4mL4zH7XXDvkymJ0UCDns2OOoV1S0j6bzbp\nhpV3GXDyh9MvCi0BvgWMk6e3ejOiIFjrJzIIN7r6+UXS8P/qj7ewI2KOns9GAam7\niW/rOY9QYmGzSFdLsa9jJ1aMwATtRKDMPtqnz2mIJBCxFBvN9PrNWBU1jx9fxUR6\nuQZkKDcnAgMBAAECggEAVGaA8SoXOb6QEZhiEghB7wA+K30MQcY++T8q9VRfoUP6\nPODQD751My5Il6Zm0o+VUivbNuX3k75NBrxAKto0aSTaO8WFAfBd1Dz6CQAUZTNQ\nR/IcMh/e9gU2tnycWp2GVNFJ6+Xqw0TjYioQ4wGfrragbkHeQtGjrzrxDiBGgyMz\nhteMZaTpg9kO7wUsZk+xMplVmn2NF/iBvnA8naHYXd5bRFvXGtKIX8IZo11K7Z1o\nAvPSi1DL8ByYr+IvQGGYuD6MhJRUTb2vcWBpa3D5i580USyAFKWMV1Qtc85fvKV6\nQF98LI+DSaDPuBDPaX4Kb7ho8whhLqt7rP/YUJJYKQKBgQD4jm1KdqQiH6K5/dDj\nvIfgC7B6pL1pvEqqJmW1YVoMz/8AuG3Jh7jXRXv/04BAeDqWKlkJtZe3u2ZrmAJf\ndG/CnoaB62WX7WzxXjekYf6kQ+IzbChh/Z7oAK+24WXB2Q7ochqeqOW+xYYLALi8\npW6YAcjLIqGwxAd1eY86i2Qa1QKBgQDhqx4yGcxKHAS6tVf5HvJtMAJrZU4u2fpO\nkgHnw0JWRovvFUKEh0HmnGkpgNULkByQgLKueL19KOoAxRRB3SzlTT9AZOkynqmz\nAnidjMFNQ8zQZvp3PDrIohgsGMq8fg40AiTWVeb2BcHgPaamnb72D0fFWVcyUmXQ\nn0VDl9bQCwKBgQC1rW1nM0cPhi4sYsDv5VsvwXuSeZ3VjoLI0d4f8POgT9wli6j7\n2I+cEjbrrI2fEgJIxtVkCm7GJl1bobWCThpul+7bQdN1dF7gIizro5E8Qj4xtgni\nbj5beDz3oNL/GQgTkWuxsuSTR8+NdU6S3Rz0UMGS8VJcYTzOejbd5QsbrQKBgFIM\neUoV/yTi0wVfccDt846nafnKN4bpUgzHIVI2uCPOOoqO3ER7OQazz7h7UvqFRx1y\n7YRp+dtLyOjGvvrDg9NLJrgu+GqjLWgceeYuiwmgoRMUnfREPcs8xDUkPnISEu/t\n557WVMcWiMsTH0htCkVEgP/L39w4ATS8894DkuLJAoGAFtQpYx6T2wlImIO2UAyW\nojyG4JJTaOzQwDqrt7lME2GIIU87LZLID+4ewpEIHRs2PbAZ8lsBljK9ekdNVxlq\n2UPwMi7IFSVFjgXALUq79D2xGTUhjJPOrKzU6HOAtKG/rpxZKmKv1xs1iBXdYtGU\nqNwW2wcuZ0+O0Z10yZLDqJM=\n-----END PRIVATE KEY-----\nz>firebase-adminsdk-fbsvc@talentanalysis.iam.gserviceaccount.comÚ117368731954312849944z)https://accounts.google.com/o/oauth2/authz#https://oauth2.googleapis.com/tokenz*https://www.googleapis.com/oauth2/v1/certszphttps://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc@talentanalysis.iam.gserviceaccount.comzgoogleapis.com)
+ÚtypeÚ
+project_idÚprivate_key_idÚ
+private_keyÚclient_emailÚ	client_idÚauth_uriÚ	token_uriÚauth_provider_x509_cert_urlÚclient_x509_cert_urlÚuniverse_domain)Ú
+credentialsÚ projectc                 C   s   t  d¡ | ¡}| |¡ d S ©NÚ
+candidates)ÚdbÚ
+collectionÚdocumentÚset)Úcandidate_idÚdataÚ doc_ref© r   úW/mnt/c/Users/rhohe/OneDrive/DACAIS-WEB_APPS/talent-fit-analysis/app/firestore_client.pyÚsave_candidate_data   s   r   c                 C   s   t  d¡ | ¡}| ¡  ¡ S r   )r   r   r   ÚgetÚ to_dict)r   r   r   r   r   Úget_candidate_data   s   r"   N)Úgoogle.cloudr   Ú
+google.oauth2r   Úservice_account_infoÚ
+CredentialsÚfrom_service_account_infor   ÚClientr   r   r"   r   r   r   r   Ú<module>   s$    õ
