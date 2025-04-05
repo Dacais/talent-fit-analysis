@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Candidate Fit Comparison</title>
+</head>
+<body>
+  <h1>Upload Candidate Info</h1>
+  <form method="POST" enctype="multipart/form-data">
+    <label>Upload Resume (PDF/TXT):</label><br/>
+    <input type="file" name="resume"><br/><br/>
+
+    <label>Web Links (comma-separated):</label><br/>
+    <input type="text" name="web_links"><br/><br/>
+
+    <label>Twitter Handle:</label><br/>
+    <input type="text" name="twitter_handle"><br/><br/>
+
+    <input type="submit" value="Analyze">
+  </form>
+
+  {% if results %}
+    <h2>Results:</h2>
+    <pre>{{ results }}</pre>
+  {% endif %}
+</body>
+</html>
